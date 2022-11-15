@@ -16,7 +16,7 @@ let pointer = {
   radius: 20,
 };
 
-canvas.addEventListener("pointermove", function (e) {
+window.addEventListener("pointermove", function (e) {
   pointer.x = e.x;
   pointer.y = e.y;
   pointer.radius = 150;
